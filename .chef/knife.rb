@@ -7,3 +7,6 @@ node_name                "bhazard"
 client_key               "#{current_dir}/bhazard.pem"
 chef_server_url          "https://api.chef.io/organizations/workwave"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_copyright	"Your Company"
+cookbook_license	"apachev2"
+cookbook_email		"you@example.com"
