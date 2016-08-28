@@ -1,8 +1,3 @@
-Deprecated
-==========
-
-Use of this repository is deprecated. We recommend using the `chef generate repo` command that comes with [ChefDK](http://downloads.chef.io/chef-dk/).
-
 Overview
 ========
 
@@ -23,11 +18,7 @@ This repository contains several directories, and each directory contains a READ
 Configuration
 =============
 
-The repository contains a knife configuration file.
-
-* .chef/knife.rb
-
-The knife configuration file `.chef/knife.rb` is a repository specific configuration file for knife. If you're using Hosted Chef, you can download one for your organization from the management console. If you're using the Open Source Chef Server, you can generate a new one with `knife configure`. For more information about configuring Knife, see the Knife documentation.
+The config file, `.chef/knife.rb` is a repository specific configuration file for knife. If you're using the Chef Platform, you can download one for your organization from the management console. If you're using the Open Source Chef Server, you can generate a new one with `knife configure`. For more information about configuring Knife, see the Knife documentation.
 
 https://docs.chef.io/knife.html
 
