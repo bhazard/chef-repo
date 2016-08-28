@@ -44,6 +44,7 @@ Vagrant.configure("2") do |config|
     chef.validation_client_name = "#{CHEF_ORG}-validator"
     chef.node_name = "#{NODE_NAME}"
     chef.add_recipe 'my_cookbook'
+    chef.add_role 'bill_development'
   end
 
 end
