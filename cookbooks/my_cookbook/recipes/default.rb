@@ -7,3 +7,7 @@
 include_recipe 'chef-client'
 include_recipe 'apt'
 include_recipe 'ntp'
+
+file "/tmp/greeting.txt" do
+  content node['my_cookbook']['greeting']
+end
