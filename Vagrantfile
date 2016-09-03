@@ -45,6 +45,7 @@ Vagrant.configure("2") do |config|
     chef.node_name = "#{NODE_NAME}"
     chef.add_recipe 'my_cookbook'
     chef.add_role 'bill_development'
+    chef.environment = 'test'
   end
 
 end
